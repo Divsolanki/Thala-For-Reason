@@ -20,7 +20,7 @@ share.addEventListener("click", async () => {
   if (navigator.share) {
     await navigator.share({
       title: `thala for reason - ${input.value}`,
-      url: `https://thalafar.netlify.app/?q=${input.value}`,
+      url: `https://thalaforreason-divyanshu.vercel.app/?q=${input.value}`,
     });
   } else {
     console.log("no support");
